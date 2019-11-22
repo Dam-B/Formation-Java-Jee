@@ -1,10 +1,12 @@
 package ExoHéritagePartie2;
 
 public class Point2 {
+	
 	protected double x,y;
 	protected Point2 Point;
 	
 public Point2(double x, double y) {
+	
 	this.x=x;
 	this.y=y;
 	}

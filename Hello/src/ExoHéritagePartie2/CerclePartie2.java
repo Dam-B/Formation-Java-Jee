@@ -1,12 +1,12 @@
 package ExoHéritagePartie2;
 
-public class CerclePartie2 extends Point2 {
+public class CerclePartie2 {
 
-		private Point2 point;
+		private static Point2 Point;
 		private double rayon;
 		
-		public CerclePartie2(double x, double y, double rayon) {
-			super(point);
+		public CerclePartie2(Point2 Point, double rayon) {
+			super(Point);
 			this.rayon = rayon;
 		}
 		public void changerayon(double dr) {
