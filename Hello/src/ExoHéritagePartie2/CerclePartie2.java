@@ -1,20 +1,26 @@
 package ExoHéritagePartie2;
 
+import ExoHéritage1.Point;
+
 public class CerclePartie2 {
 
-		private static Point2 Point;
-		private double rayon;
-		
-		public CerclePartie2(Point2 Point, double rayon) {
-			super(Point);
-			this.rayon = rayon;
-		}
-		public void changerayon(double dr) {
-			rayon += dr;
-		}
-		public void affiche() {
-			super.affiche();
-			System.out.println("Il a pour rayon " + rayon);
-		}
+	private Point centre;
+	private double rayon;
+	
+	public CerclePartie2(Point centre, double rayon) {
+		this.rayon = rayon;
+		this.centre = centre;
 	}
-}
+	public Point getCentre() {
+		return centre ;
+	}
+	public void deplacecentre(double dx, double dy) {
+		centre.deplace(dx, dy);
+	}
+	public void changerayon(double dr) {
+		this.rayon = dr;
+	}
+	public void affiche() {
+		System.out.println("centre" + centre + " Rayon = "+ rayon);
+	}
+	}

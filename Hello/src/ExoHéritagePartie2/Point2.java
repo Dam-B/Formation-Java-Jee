@@ -14,7 +14,7 @@ public Point2(double x, double y) {
 public Point2 getCentre() {
 	this.x = x;
 	this.y = y;
-	return Point = new Point2(x,y) ;
+	return new Point2(x,y) ;
 }
 
 public void deplacecentre(double dx, double dy) {
