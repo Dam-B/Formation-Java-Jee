@@ -1,4 +1,4 @@
-package ExoHéritage;
+package ExoHéritage1;
 
 public class Point {
 	public void initialise(int x, int y) {

@@ -1,4 +1,4 @@
-package ExoHéritage;
+package ExoHéritage1;
 
 public class pointA extends Point{
 	public void affiche() {
