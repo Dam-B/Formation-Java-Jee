@@ -4,7 +4,6 @@ import java.util.TreeSet;
 
 public class AppListeTiee {
 	public static void main(String []args) {
-		TreeSet<String> tab = new TreeSet<String>();
 		ListeTiee tab1 = new ListeTiee(tab);
 		
 		String c1 = new String("Ajoute");

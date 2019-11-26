@@ -6,8 +6,10 @@ import java.util.TreeSet;
 
 
 public class ListeTiee {
-	
+	TreeSet<String> tab = new TreeSet<String>();
+
 public ListeTiee(TreeSet<String> tab) {
+
 	ListeTiee.tableau=tab;
 }
 
